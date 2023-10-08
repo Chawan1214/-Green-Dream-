@@ -1,0 +1,276 @@
+
+/*...........................navbar.......................*/
+
+
+.Menu:hover .contient2{display: block;
+    background-color:rgb(255, 251, 251);
+    border: solid 1px rgb(11, 53, 0) ;
+}
+
+    #nav{position: relative;
+    }
+    .contient2{position: absolute;
+    display: none;}
+
+    
+
+   
+    #nav{align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 0;
+    margin-top: 0;
+    color: rgb(26, 104, 10);
+     
+     }
+    
+    #nav a{text-decoration: none;
+    color: rgb(11, 63, 1);
+}
+    
+    #nav li{list-style: none;
+    float: left;
+    margin: 40px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+    a:hover{background-color:rgba(167, 241, 167, 0.973);
+        border: solid 1px rgb(0, 68, 6);
+        height:40px;
+        width: 50px;
+    border-radius: 5px;}
+
+    /*...................................Homepage....................................*/
+   
+    body{background-image: url(/images/plant\ cover.jpg);
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #fff;
+                
+        }
+        
+        
+        .div,h1{font-style: inherit;
+        color: white;
+        margin-top: 0px;
+        
+        }
+        
+        #middle{
+            height: 250;
+            display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20;
+                
+            }
+            
+        .A{background-color: rgb(244, 255, 160);
+            border: 2px solid white;
+         width: 50%;
+         margin:3;
+         color: whitesmoke;
+        text-shadow: burlywood;
+         font-weight: bold;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        }
+        
+        .A:hover{background-color: rgb(240, 255, 79);
+            height:300;
+            width:500;}
+            
+        .A a{text-decoration: none;
+                color: black;}
+        
+        img{height:100% ;
+        width: 100%;}
+        
+        .vedio{margin-left: 235px;}
+        
+        
+/*....................................page1.......................................*/        
+
+
+      
+h1{font-style: inherit;
+    color: white;}
+    
+ body{position: relative;}  
+ form{position:absolute;
+margin-left: 430px;
+margin-top: 30px;} 
+
+
+
+
+
+        .donation-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #1b9b2167;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 9, 9, 0.1);
+            
+        }
+        .donation-form h1 {
+            text-align: center;
+        }
+        .donation-options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .donation-amount input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .donate-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #14702b;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        
+ 
+/*.....................................linkpage1........................................*/
+ 
+
+.container1 {
+
+    margin: 10px;
+    padding: 10px;
+
+   
+}
+
+.form-group1 {
+    margin-bottom: 20px;
+    margin-left: 0;
+ 
+}
+
+.form-group1 label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group1 input, .form-group1 select, .form-group1 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    background-position: center;
+
+       
+    background-color: rgba(77, 177, 85, 0.315);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(57, 161, 43, 0.1);
+}
+
+.form-group1 input[type="text"] {
+    text-transform: capitalize;
+}
+
+.form-group1 textarea {
+    resize: vertical;
+}
+
+.form-group1 .checkbox-group {
+    margin-top: 10px;
+}
+
+.form-group1 .checkbox-group label {
+    display: inline-block;
+}
+
+.btn1 {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #0056b3;
+}
+
+/*.................................page2..................................*/
+
+    
+h1,p {font-style: inherit;
+    color: rgb(241, 241, 241);
+}
+    
+    
+.about2{color: aliceblue;
+        font-size: 2em;
+        background-color: rgba(0, 0, 0, 0.479);
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 300px;
+
+}
+        
+       
+        
+.about2 a:hover{background-color: rgba(80, 204, 80, 0.562);} 
+
+ /*.....................................page3.............................*/
+ 
+ 
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:rgba(8, 31, 15, 0.5); 
+}
+
+h2{margin-left: 30px;
+padding-top: 10px;}
+.form-group {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+
+label {
+    font-weight: bold;
+    margin-left: 10px;
+}
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 40%;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
